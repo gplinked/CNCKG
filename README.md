@@ -28,7 +28,7 @@ We thank the reviewers for their suggestions. To ensure the **reproducibility** 
    - IBIDI algorithm that runnning the node classification  
 
 
-3. **`CNCKG/INK/ink_bennchmark/data_node_class`** — Links and loaders for open-source datasets originally released by [Ristoski et al.](https://):
+3. **`CNCKG/INK/ink_bennchmark/data_node_class`** — Links and loaders for open-source datasets originally released by [Ristoski et al.]:
    - AIFB  
    - MUTAG  
    - BGS  
