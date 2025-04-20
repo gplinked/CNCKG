@@ -20,22 +20,20 @@ This repository provides a reference implementation of **CNCKG (Credible Node Cl
 
 We thank the reviewers for their suggestions. To ensure the **reproducibility** of our research, we publicly share the following in this repository:
 
-1. **`src/`** — Full implementation of:
+1. **`CNCKG/INK`** — Full implementation of:
    - Feature representation via neighborhood dictionaries  
-   - Node classification using the IBIDI progressive learning strategy  
-   - Inference pipelines on benchmark datasets  
+   - Dynamic Update strategy  
 
-2. **`docs/`** — Documentation including:
-   - Setup and environment instructions  
-   - Hyperparameter configurations  
-   - Evaluation metrics scripts (e.g., accuracy and Cr)
+2. **`CNCKG/IBIDI`** — Full implementation of:
+   - IBIDI algorithm that runnning the node classification  
 
-3. **`data/`** — Links and loaders for open-source datasets originally released by [Ristoski et al.](https://):
+
+3. **`CNCKG/INK/ink_bennchmark/data_node_class`** — Links and loaders for open-source datasets originally released by [Ristoski et al.](https://):
    - AIFB  
    - MUTAG  
    - BGS  
    - AM  
-   - DBpedia Movies  
+   DBpedia Movies is lies in  `CNCKG/INK/ink_bennchmark/DBPedia/movies`
 
 
 ---
@@ -46,11 +44,14 @@ We thank the reviewers for their suggestions. To ensure the **reproducibility** 
 git clone https://github.com/gplinked/CNCKG.git
 cd CNCKG
 pip install -r requirements.txt
-python run_experiments.py --dataset AIFB
 
 ---
 
-## 🔧 Note: We are currently organizing and refining the codebase.
-The complete reproducible code will be made available by April 20, 2025.
+## 🔧 How to start trainning
 
+1. Download data from links in `CNCKG/INK/ink_bennchmark/data_node_class` and `CNCKG/INK/ink_bennchmark/DBPedia/movies` and put them in corresponding folder.
+2. Calculate the centrality of dataset and put it into 'CNCKG/IBIDI/dataset'
+3. Run 'CNCKG/INK/ink_bennchmark/main.py'
+4. Run 'CNCKG/BIDI/ComputeCr' to get results of Cr value.
+5. If you want to run dynamic update algorighm, please refers to `CNCKG/INK/ink_bennchmark/INK_updated` and '`CNCKG/INK/ink_bennchmark/data_node_class/INK_updated_dbpedia`'
 ---
