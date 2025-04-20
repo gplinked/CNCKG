@@ -1,38 +1,0 @@
-#Process: get neighbourhood
-  0%|          | 0/2000 [00:00<?, ?it/s]  0%|          | 1/2000 [00:11<6:18:40, 11.37s/it]  5%|▌         | 101/2000 [00:13<03:02, 10.42it/s] 10%|█         | 201/2000 [00:15<01:39, 18.14it/s] 15%|█▌        | 301/2000 [00:17<01:07, 25.03it/s] 20%|██        | 401/2000 [00:20<00:53, 30.09it/s] 25%|██▌       | 501/2000 [00:21<00:40, 37.37it/s] 30%|███       | 601/2000 [00:24<00:39, 35.02it/s] 35%|███▌      | 701/2000 [00:26<00:31, 41.03it/s] 40%|████      | 801/2000 [00:31<00:40, 29.67it/s] 45%|████▌     | 901/2000 [00:34<00:34, 32.08it/s] 50%|█████     | 1001/2000 [00:36<00:28, 35.50it/s] 55%|█████▌    | 1101/2000 [00:38<00:23, 38.28it/s] 60%|██████    | 1201/2000 [00:40<00:19, 40.39it/s] 65%|██████▌   | 1301/2000 [00:43<00:18, 37.57it/s] 70%|███████   | 1401/2000 [00:46<00:14, 39.98it/s] 75%|███████▌  | 1501/2000 [00:48<00:11, 41.65it/s] 80%|████████  | 1601/2000 [00:51<00:10, 37.09it/s] 85%|████████▌ | 1701/2000 [00:55<00:09, 33.12it/s] 90%|█████████ | 1801/2000 [00:57<00:05, 34.65it/s] 95%|█████████▌| 1901/2000 [01:00<00:02, 38.06it/s]100%|██████████| 2000/2000 [01:00<00:00, 33.32it/s]
-与pos有关的关系一共有 32 类
-与pos有关的关系如下：
-dbpruntime
-dbpimdbID
-dbpaward#goldenWon
-dbowriter
-dbpaward#totalNominated
-dbpaward#otherWon
-dbpaward#totalWon
-dbpaward#positive
-rdftype
-dbpstarring
-dbpimdbRating
-dbpcountry
-dbpaward#oscarWon
-dbpaward#goldenNominated
-dbpaward#negative
-dbpname
-dbpreleased
-dctsubject
-dbpmlLabel
-dbpaward#oscarNominated
-dbprecorded
-dbpaward
-dbpdirector
-dbpimdbTitle
-dbpmpaa
-dbpaward#otherNominated
-dbplanguage
-dbpalt
-dbpimdbVotes
-dbpaward#neutral
-dbpmetascore
-dbpgenre
-# Transform
-  0%|          | 0/2000 [00:00<?, ?it/s] 51%|█████     | 1018/2000 [00:00<00:00, 10175.96it/s]100%|██████████| 2000/2000 [00:00<00:00, 11053.96it/s]

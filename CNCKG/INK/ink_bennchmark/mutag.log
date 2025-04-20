@@ -1,25 +1,0 @@
-mutag.owl
-#Process: get neighbourhood
-  0%|          | 0/340 [00:00<?, ?it/s]  0%|          | 1/340 [00:02<16:31,  2.93s/it] 30%|██▉       | 101/340 [00:03<00:05, 41.17it/s] 41%|████▏     | 141/340 [00:03<00:03, 60.93it/s] 71%|███████   | 241/340 [00:03<00:00, 114.15it/s]100%|██████████| 340/340 [00:03<00:00, 91.66it/s] 
-与pos有关的关系一共有 17 类
-与pos有关的关系如下：
-http://dl-learner.org/carcinogenesis#drosophila_rt
-http://dl-learner.org/carcinogenesis#cytogen_sce
-http://dl-learner.org/carcinogenesis#salmonella
-http://dl-learner.org/carcinogenesis#micronuc_m
-http://dl-learner.org/carcinogenesis#chromex
-http://dl-learner.org/carcinogenesis#hasBond
-http://dl-learner.org/carcinogenesis#mouse_lymph
-http://dl-learner.org/carcinogenesis#drosophila_slrl
-http://dl-learner.org/carcinogenesis#micronuc_f
-http://dl-learner.org/carcinogenesis#salmonella_n
-http://www.w3.org/1999/02/22-rdf-syntax-ns#type
-http://dl-learner.org/carcinogenesis#hasAtom
-http://dl-learner.org/carcinogenesis#amesTestPositive
-http://dl-learner.org/carcinogenesis#salmonella_reduc
-http://dl-learner.org/carcinogenesis#hasStructure
-http://dl-learner.org/carcinogenesis#chromaberr
-http://dl-learner.org/carcinogenesis#cytogen_ca
-# Transform
-  0%|          | 0/340 [00:00<?, ?it/s]100%|██████████| 340/340 [00:00<00:00, 5914.18it/s]
-Create time :  3.8838698863983154
